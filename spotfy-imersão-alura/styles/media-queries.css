@@ -1,0 +1,26 @@
+@media screen and (max-width:1792px){
+    .offer_list-item{
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+
+}
+@media screen and (max-width:1438px){
+    .offer_list-item{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+}
+@media screen and (max-width:1101px) {
+    .offer_list-item{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media screen and (max-width:735px){
+    .align_container{
+        flex-wrap: wrap;
+    }
+    footer{
+       position: relative;
+    }
+}
